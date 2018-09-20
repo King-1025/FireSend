@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical"
+	android:background="#1E000000"
+	android:paddingBottom="1dp"
+	android:paddingLeft="2dp"
+	android:layout_marginRight="1dp">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="#FFFFFF">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/regularitemTextView1"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_below="@id/regularitemTextView1"
+			android:id="@+id/regularitemView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/regularitemView1"
+			android:id="@+id/regularitemTextView2"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_below="@id/regularitemTextView2"
+			android:id="@+id/regularitemView2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/regularitemView2"
+			android:id="@+id/regularitemTextView3"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

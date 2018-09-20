@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:style="http://schemas.android.com/apk/res-auto"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:id="@+id/smallfloatwindowLinearLayout1">
+
+	<com.firesend.view.StyleButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		style:text="@string/active"
+		style:backgroundColor="#000000"
+		android:id="@+id/smallfloatwindowStyleButton1"/>
+
+</LinearLayout>
+

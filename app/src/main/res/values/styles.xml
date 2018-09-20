@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	<style  name="splash" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+	    <item   name="android:background">#1EFFFFFF</item>
+	</style> 
+</resources>

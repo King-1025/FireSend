@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="\t\t此版本为友情内测版本，由寒冰小小莉独家提供。如有任何问题，请联系QQ:1543641386。"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:textSize="16sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="\t\t温馨提示:希望参与内测的朋友们，把使用中遇到的问题或者有更好的建议，告知上述QQ。非常感谢!(有红包^O^)"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:textSize="16sp"/>
+
+</LinearLayout>
+

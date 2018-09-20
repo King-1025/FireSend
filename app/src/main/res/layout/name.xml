@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:padding="10dp"
+		android:textSize="20sp"
+		android:text="@string/motify_regular_name"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="12"
+		android:layout_width="match_parent"
+		android:maxLines="3"
+		android:id="@+id/nameEditText1"
+		android:textSize="20sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/notify_regular_name_length"
+		android:layout_width="match_parent"
+		android:textSize="15sp"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/nameButton1"
+			android:text="@string/cancel"
+			android:textSize="20sp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/nameButton2"
+			android:text="@string/ok"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

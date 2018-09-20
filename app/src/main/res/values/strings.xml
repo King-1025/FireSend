@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">辅助发送</string>
+	<string name="about">关于</string>
+	<string name="use">使用</string>
+	<string name="service_name">辅助发送(Beta)</string>
+	<string name="description">请点击右上角的开启/关闭按钮\n\n为了服务能够正常进行，请允许所需要的权限。\n\n目前,本服务适用于QQ,微信以及虎牙直播。</string>
+    <string name="declare">2017@抢先版1.0 寒冰小小莉</string>
+	<string name="style_text0">一言不合，就刷刷╮(╯▽╰)╭</string>
+	<string name="style_text1">这手速你受得了吗?</string>
+	<string name="style_text2">玩的主要是快乐!</string>
+	<string name="style_text3">. . .</string>
+	<string name="send_regular">发送规则</string>
+	<string name="regular_name">名称:</string>
+	<string name="regular_total_text">总条数:</string>
+	<string name="regular_total_time">总延迟时间:</string>
+	<string name="motify_name">修改名称</string>
+	<string name="regular_default_value">---</string>
+	<string name="without_regular_now">暂时没有规则</string>
+	<string name="window_name">窗口名称</string>
+	<string name="send_count">发送次数</string>
+	<string name="edit_regular">编辑规则</string>
+	<string name="stop_service">停用</string>
+	<string name="reset">重置</string>
+	<string name="motify_regular_name">修改规则名称</string>
+	<string name="notify_regular_name_length">注意:名称长度应该小于30个字符！</string>
+	<string name="cancel">取消</string>
+	<string name="ok">确定</string>
+	<string name="rule">单位:</string>
+	<string name="ms">毫秒</string>
+	<string name="s">秒</string>
+	<string name="min">分钟</string>
+	<string name="export_regular">导出规则</string>
+	<string name="import_regular">导入规则</string>
+	<string name="file_name">文件名:</string>
+	<string name="save_path">保存路径:</string>
+	<string name="export">导出</string>
+	<string name="active">激活</string>
+	<string name="start_or_stop_service">打开/关闭服务</string>
+	<string name="step">操作步骤</string>
+	<string name="notify_text">辅 助 发 送 正 在 运 行 中 . . .</string>
+</resources>

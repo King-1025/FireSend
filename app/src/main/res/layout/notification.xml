@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#2FD58B">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:layout_margin="3dp"
+		android:background="#34B3CE">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_alignParentEnd="true"
+			android:id="@+id/notificationLinearLayout1">
+
+			<ImageView
+				android:layout_height="65dp"
+				android:layout_width="65dp"
+				android:src="@android:drawable/ic_delete"
+				android:id="@+id/notificationImageView1"/>
+
+			<ImageView
+				android:layout_height="35dp"
+				android:layout_width="65dp"
+				android:src="@android:drawable/ic_delete"
+				android:id="@+id/notificationImageView2"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="@string/notify_text"
+			android:layout_width="match_parent"
+			android:id="@+id/notificationTextView1"
+			android:layout_toLeftOf="@id/notificationLinearLayout1"
+			android:gravity="center_vertical"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

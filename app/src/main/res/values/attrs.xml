@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="text" format="string"/>
+	<attr name="text_size" format="integer"/>
+	<attr name="text_color" format="color"/>
+	<attr name="background" format="color|reference"/>
+		
+	<declare-styleable name="StyleTextView">
+		<attr name="text"/>
+		<attr name="text_size"/>
+		<attr name="text_color"/>
+		<attr name="bgcolor_0" format="color"/>
+		<attr name="bgcolor_1" format="color"/>
+		<attr name="rect_paddingL" format="integer"/>
+		<attr name="rect_paddingT" format="integer"/>
+		<attr name="rect_paddingR" format="integer"/>
+		<attr name="rect_paddingB" format="integer"/>
+		<attr name="rect_out_style" format="boolean"/>
+		<attr name="text_out_style" format="boolean"/>
+		<attr name="rect_stroke_width" format="float"/>
+		<attr name="text_stroke_width" format="float"/>
+		<attr name="mask_style" format="enum">
+			<enum name="blur" value="-1"/>
+			<enum name="emboss" value="0"/>
+		</attr>
+		<attr name="blur_mode" format="enum">
+			<enum name="inner" value="-1"/>
+			<enum name="normal" value="0"/>
+			<enum name="outer" value="1"/>
+			<enum name="solid" value="2"/>
+		</attr>
+		<attr name="blur_mask_width" format="float"/>
+	</declare-styleable>
+	
+	
+	<declare-styleable name="StyleButton">
+		<attr name="text"/>
+		<attr name="text_size"/>
+		<attr name="text_color"/>
+		<attr name="backgroundColor" format="color"/>
+		<attr name="bgMaskFilter" format="boolean"/>
+		<attr name="textMaskFilter" format="boolean"/>
+		<attr name="rX" format="float"/>
+		<attr name="rY" format="float"/>
+	</declare-styleable>
+	
+	
+	<declare-styleable name="StyleLine">
+		<attr name="colorx" format="color"/>
+		<attr name="colory" format="color"/>
+		<attr name="w" format="float"/>
+		<attr name="l" format="float"/>
+	</declare-styleable>
+</resources>

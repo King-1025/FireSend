@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:padding="10dp"
+		android:textSize="20sp"
+		android:id="@+id/filesshowTextView1"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/filesshowTextView2"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<ListView
+		android:layout_height="300dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/filesshowListView1"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/filesshowButton1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/filesshowButton2"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

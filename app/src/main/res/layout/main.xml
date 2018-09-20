@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:style="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<com.firesend.view.StyleTextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_centerHorizontal="true"
+		style:text="@string/send_regular"
+		style:text_size="60"
+		style:text_color="#DC000000"
+		style:bgcolor_0="#1EFFFFFF"
+		style:bgcolor_1="#1E000000"
+		style:rect_paddingL="300"
+		style:rect_paddingT="100"
+		style:rect_paddingR="300"
+		style:rect_paddingB="100"
+		style:rect_out_style="false"
+		style:text_out_style="true"
+		style:rect_stroke_width="8"
+		style:text_stroke_width="1.5"
+		style:mask_style="emboss"
+		style:blur_mode="normal"
+		style:blur_mask_width="2.0"
+		android:id="@+id/styleTextView1"
+		android:visibility="gone"/>
+
+	<com.firesend.view.StyleNotifyBar
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@id/styleTextView1"
+		android:id="@+id/styleNotifyBar1"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_below="@id/styleNotifyBar1"
+		android:id="@+id/mainView1"/>
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/mainLinearLayout1"
+		android:background="#1EDCE0E0">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainButton1"
+			android:layout_weight="1.0"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="1dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainButton2"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_above="@id/mainLinearLayout1"
+		android:id="@+id/mainView2"/>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@id/mainView1"
+		android:layout_above="@id/mainView2"
+		android:id="@+id/mainRelativeLayout2">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/regular_name"
+			android:layout_width="wrap_content"
+			android:textSize="15sp"
+			android:id="@+id/mainTextView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/regular_total_text"
+			android:layout_width="wrap_content"
+			android:textSize="15sp"
+			android:layout_below="@id/mainTextView1"
+			android:id="@+id/mainTextView2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/regular_total_time"
+			android:layout_width="wrap_content"
+			android:textSize="15sp"
+			android:layout_below="@id/mainTextView2"
+			android:id="@+id/mainTextView3"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_below="@id/mainTextView3"
+			android:id="@+id/mainView3"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:layout_alignParentEnd="true"
+			android:layout_below="@id/mainView2"
+			android:layout_above="@id/mainView3"
+			android:id="@+id/mainLinearLayout2">
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="wrap_content"
+				android:id="@+id/mainButton3"
+				android:text="@string/motify_name"
+				android:textSize="13sp"
+				android:gravity="center"/>
+
+		</LinearLayout>
+
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_toLeftOf="@id/mainLinearLayout2"
+			android:layout_toRightOf="@id/mainTextView1">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/mainTextViewName"
+				android:text="@string/regular_default_value"
+				android:textSize="15sp"
+				android:lines="1"/>
+
+		</HorizontalScrollView>
+
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/mainTextView1"
+			android:layout_toLeftOf="@id/mainLinearLayout2"
+			android:layout_toRightOf="@id/mainTextView2">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/mainTextViewItem"
+				android:text="@string/regular_default_value"
+				android:textSize="15sp"
+				android:lines="1"/>
+
+		</HorizontalScrollView>
+
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/mainTextView2"
+			android:layout_toLeftOf="@id/mainLinearLayout2"
+			android:layout_toRightOf="@id/mainTextView3">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/mainTextViewDelayTime"
+				android:text="@string/regular_default_value"
+				android:textSize="15sp"
+				android:lines="1"/>
+
+		</HorizontalScrollView>
+
+		<ListView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_below="@id/mainView3"
+			android:id="@+id/mainListView1"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_below="@id/mainListView1"
+			android:id="@+id/mainLayoutNotify"
+			android:gravity="center">
+
+			<com.firesend.view.StyleTextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				style:text="@string/without_regular_now"
+				style:text_size="66"
+				style:text_color="#1E1E1E"
+				style:bgcolor_0="#FFFFFF"
+				style:bgcolor_1="#000000"
+				style:rect_paddingL="50"
+				style:rect_paddingT="25"
+				style:rect_paddingR="50"
+				style:rect_paddingB="25"
+				style:rect_out_style="false"
+				style:text_out_style="true"
+				style:rect_stroke_width="2.1"
+				style:text_stroke_width="0.5"
+				style:mask_style="emboss"/>
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+

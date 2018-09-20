@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/regularexportTextView1"
+		android:textSize="20sp"
+		android:padding="10dp"
+		android:text="@string/export_regular"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<RelativeLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/file_name"
+			android:layout_width="wrap_content"
+			android:id="@+id/regularexportTextView2"
+			android:layout_centerVertical="true"
+			android:textSize="15sp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:ems="12"
+			android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/regularexportTextView2"
+			android:id="@+id/regularexportEditText1"
+			android:maxLines="1"
+			android:textSize="15sp"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:id="@+id/regularexportRelativeLayout1"
+		android:background="#FFFFFF">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/save_path"
+			android:layout_width="wrap_content"
+			android:id="@+id/regularexportTextView3"
+			android:textSize="15sp"
+			android:layout_centerVertical="true"/>
+
+		<ImageView
+			android:layout_height="35dp"
+			android:layout_width="35dp"
+			android:layout_alignParentEnd="true"
+			android:layout_centerVertical="true"
+			android:id="@+id/regularexportImageView1"/>
+
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_toLeftOf="@id/regularexportImageView1"
+			android:layout_toRightOf="@id/regularexportTextView3"
+			android:layout_centerVertical="true"
+			android:id="@+id/regularexportHorizontalScrollView1">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:id="@+id/regularexportTextView4"
+				android:padding="8dp"/>
+
+		</HorizontalScrollView>
+
+	</RelativeLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/cancel"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/regularexportButton1"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="1dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/export"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/regularexportButton2"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

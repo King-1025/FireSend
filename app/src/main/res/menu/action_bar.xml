@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+	<item
+		android:id="@+id/service"
+		android:showAsAction="never"
+        android:title="@string/start_or_stop_service"/>
+	<item
+		android:id="@+id/regular_export"
+		android:showAsAction="never"
+        android:title="@string/export_regular"/>
+	<item
+		android:id="@+id/regular_import"
+		android:showAsAction="never"
+        android:title="@string/import_regular"/>
+	<item
+        android:id="@+id/use"
+		android:showAsAction="never"
+        android:title="@string/step"/>
+	<item
+        android:id="@+id/info"
+		android:showAsAction="always"
+        android:title="@string/about"/>
+    
+</menu>
